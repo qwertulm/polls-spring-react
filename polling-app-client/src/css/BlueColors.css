@@ -1,0 +1,77 @@
+.create-poll-form-button[disabled], .create-poll-form-button[disabled]:hover, .create-poll-form-button[disabled]:focus {
+    opacity: 0.6;
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+}
+
+.ant-btn-primary {
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+}
+
+.vote-button:hover {
+    color: #1890ff;
+    border-color: #1890ff;
+}
+
+.poll-creator-info .creator-link:hover .poll-creator-name {
+    color: #1890ff;
+    text-decoration: underline;
+}
+
+.signup-form-button[disabled], .signup-form-button[disabled]:hover, .signup-form-button[disabled]:focus {
+    opacity: 0.6;
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+}
+
+a {
+    color: #1890ff;
+}
+
+.ant-menu-horizontal > .ant-menu-item:hover, .ant-menu-horizontal > .ant-menu-submenu:hover, .ant-menu-horizontal > .ant-menu-item-active, .ant-menu-horizontal > .ant-menu-submenu-active, .ant-menu-horizontal > .ant-menu-item-open, .ant-menu-horizontal > .ant-menu-submenu-open, .ant-menu-horizontal > .ant-menu-item-selected, .ant-menu-horizontal > .ant-menu-submenu-selected {
+    border-bottom: 2px solid #1890ff;
+    color: #1890ff;
+}
+
+.ant-tabs-nav .ant-tabs-tab-active {
+    color: #1890ff;
+    font-weight: 500;
+}
+
+.ant-tabs-ink-bar {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 2px;
+    background-color: #1890ff;
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+::selection {
+    background: #1890ff;
+    color: #fff;
+}
+
+.vote-button {
+    border-radius: 15px;
+    margin-right: 15px;
+    color: #40a9ff;
+    border-color: #40a9ff;
+}
+
+.ant-tabs-tab:hover {
+    color: #40a9ff;
+}
+
+.ant-avatar {
+    background-color: #40a9ff !important;
+}

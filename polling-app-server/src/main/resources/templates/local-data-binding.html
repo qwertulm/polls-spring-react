@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="https://demos.telerik.com/kendo-ui/grid/remote-data-binding?_ga=2.69081172.451025214.1595077240-1348482857.1594717225">
+    <style>html { font-size: 14px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <title></title>
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.2.617/styles/kendo.default-v2.min.css" />
+
+    <script src="https://kendo.cdn.telerik.com/2020.2.617/js/jquery.min.js"></script>
+
+
+    <script src="https://kendo.cdn.telerik.com/2020.2.617/js/kendo.all.min.js"></script>
+
+
+
+</head>
+<body>
+
+<div id="example">
+    <div id="grid"></div>
+    <script>
+        $(document).ready(function() {
+            $("#grid").kendoGrid({
+                dataSource: {
+                    type: "odata",
+                    transport: {
+                        read: "https://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders"
+                    },
+                    schema: {
+                        model: {
+                            fields: {
+                                OrderID: { type: "number" },
+                                Freight: { type: "number" },
+                                ShipName: { type: "string" },
+                                OrderDate: { type: "date" },
+                                ShipCity: { type: "string" }
+                            }
+                        }
+                    },
+                    pageSize: 20,
+                    serverPaging: true,
+                    serverFiltering: true,
+                    serverSorting: true
+                },
+                height: 550,
+                filterable: true,
+                sortable: true,
+                pageable: true,
+                columns: [{
+                    field:"OrderID",
+                    filterable: false
+                },
+                    "Freight",
+                    {
+                        field: "OrderDate",
+                        title: "Order Date",
+                        format: "{0:MM/dd/yyyy}"
+                    }, {
+                        field: "ShipName",
+                        title: "Ship Name"
+                    }, {
+                        field: "ShipCity",
+                        title: "Ship City"
+                    }
+                ]
+            });
+        });
+    </script>
+</div>
+
+
+</body>
+</html>

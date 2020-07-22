@@ -1,0 +1,76 @@
+.create-poll-form-button[disabled], .create-poll-form-button[disabled]:hover, .create-poll-form-button[disabled]:focus {
+    opacity: 0.6;
+    color: #fff;
+    background-color: #bb5801 !important;
+    border-color: #bb5801 !important;
+}
+
+.ant-btn-primary {
+    color: #fff;
+    background-color: #bb5801 !important;
+    border-color: #bb5801 !important;
+}
+
+.vote-button:hover {
+    color: #bb5801 !important;
+    border-color: #bb5801 !important;
+}
+
+.poll-creator-info .creator-link:hover .poll-creator-name {
+    color: #bb5801 !important;
+    text-decoration: underline;
+}
+
+.signup-form-button[disabled], .signup-form-button[disabled]:hover, .signup-form-button[disabled]:focus {
+    opacity: 0.6;
+    color: #fff;
+    background-color: #bb5801 !important;
+    border-color: #bb5801 !important;
+}
+
+a {
+    color: #bb5801 !important;
+}
+.ant-menu-horizontal > .ant-menu-item:hover, .ant-menu-horizontal > .ant-menu-submenu:hover, .ant-menu-horizontal > .ant-menu-item-active, .ant-menu-horizontal > .ant-menu-submenu-active, .ant-menu-horizontal > .ant-menu-item-open, .ant-menu-horizontal > .ant-menu-submenu-open, .ant-menu-horizontal > .ant-menu-item-selected, .ant-menu-horizontal > .ant-menu-submenu-selected {
+    border-bottom: 2px solid #bb5801 !important;
+    color: #bb5801 !important;
+}
+
+.ant-tabs-nav .ant-tabs-tab-active {
+    color: #bb5801 !important;
+    font-weight: 500;
+}
+
+.ant-tabs-ink-bar {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 2px;
+    background-color: #bb5801 !important;
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+::selection {
+    background: #bb5801 !important;
+    color: #fff;
+}
+
+.vote-button {
+    border-radius: 15px;
+    margin-right: 15px;
+    color: #bb5801 !important;
+    border-color: #bb5801 !important;
+}
+
+.ant-tabs-tab:hover {
+    color: #bb5801 !important;
+}
+
+.ant-avatar {
+    background-color: #bb5801 !important;
+}
